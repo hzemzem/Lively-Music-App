@@ -1,0 +1,7 @@
+node_modules/*
+.babelrc
+package.json
+.eslintrc.json
+tests/
+tests/*
+webpack.config.js

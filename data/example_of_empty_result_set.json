@@ -1,0 +1,17 @@
+// This is an example of what is returned when there are no results
+// I searched for Kings of Leon at Philips Areana
+// I think the key attribute here is the totalElements part of 'page'. We should check that first to determine
+// if there are results to show.
+{
+  "_links": {
+    "self": {
+      "href": "/discovery/v2/events.json?size=5&id=KovZpa2Xke&keyword=kings+of+leon"
+    }
+  },
+  "page": {
+    "size": 5,
+    "totalElements": 0,
+    "totalPages": 0,
+    "number": 0
+  }
+}

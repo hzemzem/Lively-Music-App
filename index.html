@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="UTF-8">
+
+	<title>Lively Music App</title>
+
+	<!-- Bootstrap -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	<link rel="stylesheet" href="./assets/css/style.css">
+
+	<script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+	 crossorigin="anonymous"></script>
+
+	<!-- Latest compiled and minified JavaScript -->
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa"
+	 crossorigin="anonymous"></script>
+
+	<script src="./assets/js/eventemitter2.js"></script>
+	<script src="./assets/js/app.js"></script>
+	<script src="./assets/js/geolocator.js"></script>
+	<script src="./assets/js/search.js"></script>
+	<script src="./assets/js/latlon-geohash.js"></script>
+	<script src="./assets/js/ticketmaster.js"></script>
+
+</head>
+
+<body>
+
+
+
+	<!-- nav bar  THANK YOU JONATHAN-->
+	<nav class="navbar navbar-default navbar-fixed-top">
+		<div class="container-fluid">
+
+
+			<div class="navbar-header">
+				<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1"
+				 aria-expanded="false">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+				<!-- Brand Image Goes Here -->
+				<a class="navbar-brand" href="#"><img src="#" alt="Brand Image Go Here"></a>
+			</div>
+
+
+			<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+				<ul class="nav navbar-nav">
+					<li><a id="trendingSelector">Trending</a></li>
+				</ul>
+				<form class="navbar-form navbar-right">
+					<div class="form-group">
+						<input type="text" class="form-control" placeholder="Search keywords" id='navbarSearchText'>
+					</div>
+					<button type="submit" class="btn btn-default btn-sm" id='navbarSearchBtn'>Search</button>
+				</form>
+				<ul class="nav navbar-nav navbar-right">
+					<li><a id="advSearchToggle">Advanced Search</a></li>
+				</ul>
+			</div>
+			<!-- /.navbar-collapse -->
+		</div>
+		<!-- /.container-fluid -->
+	</nav>
+
+
+	<!-- container fluid-->
+	<!-- each row is given an ID; can add more IDs and classes as needed -->
+
+	<div class="container-fluid">
+
+		<!-- trending bar, info stored by firebase-->
+		<div class="row" id="trendBar">
+			<div class="col-xs-3">
+				<h3>Trending</h1>
+			</div>
+			<div class="col-xs-3">
+				<h4 id="trending-1">Trending Artist 1</h1>
+			</div>
+			<div class="col-xs-3">
+				<h4 id="trending-2">Trending Artist 2</h1>
+			</div>
+			<div class="col-xs-3">
+				<h4 id="trending-3">Trending Artist 3</h1>
+			</div>
+		</div>
+
+		<!-- advanced search -->
+		<div class="row isHidden" id="advSearch">
+			<div class="col-xs-12">
+				<h3 class="text-center text-muted">Advanced Search</h3>
+				<form action="">
+					<div class="form-group">
+						<label for="artist">Artist</label>
+						<input type="text" id="artist" class="form-control" placeholder="Artist">
+					</div>
+					<div class="form-group">
+						<label for="venue">Venue</label>
+						<input type="text" id="venue" class="form-control" placeholder="Venue">
+					</div>
+					<div class="form-group">
+						<label for="location">Location (City, State, or Zip)</label>
+						<input type="text" class="form-control" placeholder="Location" id='location'>
+					</div>
+					<div class="row">
+						<div class="col-xs-6">
+							<div class="form-group">
+								<label for="startDate">Start Date</label>
+								<input type="date" class="form-control">
+							</div>
+						</div>
+						<div class="col-xs-6">
+							<div class="form-group">
+								<label for="endDate">End Date</label>
+								<input type="date" class="form-control">
+							</div>
+						</div>
+					</div>
+					<button type="submit" class="btn btn-default btn-sm" id='advSearchBtn'>Search</button>
+				</form>
+			</div>
+		</div>
+		<!-- End of advanced search row -->
+
+		<!-- content (map or carousel) -->
+		<div class="row" id="content">
+			<div class="col-xs-12 text-center">
+				<h1>Google Maps here</h1>
+			</div>
+		</div>
+
+		<!-- overflow content (map data table) -->
+		<div class="row" id="overflowContent">
+			<div class="col-xs-12 text-center">
+				<h1>Overflow content (data table)</h1>
+
+
+				<h1>Overflow content (data table)</h1>
+
+				<h1>Overflow content (data table)</h1>
+
+				<h1>Overflow content (data table)</h1>
+
+
+			</div>
+		</div>
+
+	</div>
+
+
+
+
+	<!-- footer -->
+	<footer>
+		<div class="container-fluid">
+			<div class="row">
+				<p>sticky footer</p>
+			</div>
+			<div class="row text-center">
+				<p>Lively Music App</p>
+			</div>
+		</div>
+	</footer>
+
+
+</body>
+
+</html>

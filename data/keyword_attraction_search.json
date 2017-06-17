@@ -1,0 +1,399 @@
+// Response data from attraction search for keywords 'Group' and 'love'
+// the 'id' variable is key here. If the user wants to then do an event search for that specific attraction, 
+// we need to pass that id as a parameter to the event search
+{
+  "_embedded": {
+    "attractions": [
+      {
+        "name": "Grouplove",
+        "type": "attraction",
+        "id": "K8vZ917ufxV",
+        "test": false,
+        "url": "http://www.ticketmaster.com/artist/1504793",
+        "locale": "en-us",
+        "externalLinks": {
+          "youtube": [
+            {
+              "url": "https://www.youtube.com/user/grouplovemusic"
+            }
+          ],
+          "twitter": [
+            {
+              "url": "https://twitter.com/GROUPLOVE"
+            }
+          ],
+          "lastfm": [
+            {
+              "url": "http://www.last.fm/music/Grouplove"
+            }
+          ],
+          "facebook": [
+            {
+              "url": "https://www.facebook.com/GROUPLOVE"
+            }
+          ],
+          "wiki": [
+            {
+              "url": "https://en.wikipedia.org/wiki/Grouplove"
+            }
+          ],
+          "musicbrainz": [
+            {
+              "id": "d8e41375-bd8d-4e39-9da7-f0c171e97086"
+            }
+          ],
+          "homepage": [
+            {
+              "url": "http://www.grouplovemusic.com/"
+            }
+          ]
+        },
+        "images": [
+          {
+            "ratio": "3_2",
+            "url": "https://s1.ticketm.net/dam/a/d37/55b49438-2338-4de1-846e-3a0c6e904d37_103381_TABLET_LANDSCAPE_3_2.jpg",
+            "width": 1024,
+            "height": 683,
+            "fallback": false
+          },
+          {
+            "ratio": "4_3",
+            "url": "https://s1.ticketm.net/dam/a/d37/55b49438-2338-4de1-846e-3a0c6e904d37_103381_CUSTOM.jpg",
+            "width": 305,
+            "height": 225,
+            "fallback": false
+          },
+          {
+            "ratio": "16_9",
+            "url": "https://s1.ticketm.net/dam/a/d37/55b49438-2338-4de1-846e-3a0c6e904d37_103381_RECOMENDATION_16_9.jpg",
+            "width": 100,
+            "height": 56,
+            "fallback": false
+          },
+          {
+            "ratio": "16_9",
+            "url": "https://s1.ticketm.net/dam/a/d37/55b49438-2338-4de1-846e-3a0c6e904d37_103381_RETINA_LANDSCAPE_16_9.jpg",
+            "width": 1136,
+            "height": 639,
+            "fallback": false
+          },
+          {
+            "ratio": "16_9",
+            "url": "https://s1.ticketm.net/dam/a/d37/55b49438-2338-4de1-846e-3a0c6e904d37_103381_TABLET_LANDSCAPE_LARGE_16_9.jpg",
+            "width": 2048,
+            "height": 1152,
+            "fallback": false
+          },
+          {
+            "ratio": "3_2",
+            "url": "https://s1.ticketm.net/dam/a/d37/55b49438-2338-4de1-846e-3a0c6e904d37_103381_RETINA_PORTRAIT_3_2.jpg",
+            "width": 640,
+            "height": 427,
+            "fallback": false
+          },
+          {
+            "ratio": "16_9",
+            "url": "https://s1.ticketm.net/dam/a/d37/55b49438-2338-4de1-846e-3a0c6e904d37_103381_EVENT_DETAIL_PAGE_16_9.jpg",
+            "width": 205,
+            "height": 115,
+            "fallback": false
+          },
+          {
+            "ratio": "16_9",
+            "url": "https://s1.ticketm.net/dam/a/d37/55b49438-2338-4de1-846e-3a0c6e904d37_103381_TABLET_LANDSCAPE_16_9.jpg",
+            "width": 1024,
+            "height": 576,
+            "fallback": false
+          },
+          {
+            "ratio": "3_2",
+            "url": "https://s1.ticketm.net/dam/a/d37/55b49438-2338-4de1-846e-3a0c6e904d37_103381_ARTIST_PAGE_3_2.jpg",
+            "width": 305,
+            "height": 203,
+            "fallback": false
+          },
+          {
+            "ratio": "16_9",
+            "url": "https://s1.ticketm.net/dam/a/d37/55b49438-2338-4de1-846e-3a0c6e904d37_103381_RETINA_PORTRAIT_16_9.jpg",
+            "width": 640,
+            "height": 360,
+            "fallback": false
+          }
+        ],
+        "classifications": [
+          {
+            "primary": true,
+            "segment": {
+              "id": "KZFzniwnSyZfZ7v7nJ",
+              "name": "Music"
+            },
+            "genre": {
+              "id": "KnvZfZ7vAeA",
+              "name": "Rock"
+            },
+            "subGenre": {
+              "id": "KZazBEonSMnZfZ7v6dt",
+              "name": "Alternative Rock"
+            },
+            "type": {
+              "id": "KZAyXgnZfZ7v7nI",
+              "name": "Undefined"
+            },
+            "subType": {
+              "id": "KZFzBErXgnZfZ7v7lJ",
+              "name": "Undefined"
+            }
+          }
+        ],
+        "upcomingEvents": {
+          "_total": 38,
+          "tmr": 1,
+          "ticketmaster": 36,
+          "mfx-uk": 1
+        },
+        "_links": {
+          "self": {
+            "href": "/discovery/v2/attractions/K8vZ917ufxV?locale=en-us"
+          }
+        }
+      },
+      {
+        "name": "Grouplove and Portugal. the Man",
+        "type": "attraction",
+        "id": "K8vZ9173I57",
+        "test": false,
+        "url": "http://www.ticketmaster.com/artist/2012344",
+        "locale": "en-us",
+        "images": [
+          {
+            "ratio": "16_9",
+            "url": "https://s1.ticketm.net/dbimages/178227a.jpg",
+            "width": 205,
+            "height": 115,
+            "fallback": false
+          },
+          {
+            "ratio": "16_9",
+            "url": "https://s1.ticketm.net/dam/c/fbc/b293c0ad-c904-4215-bc59-8d7f2414dfbc_106141_RECOMENDATION_16_9.jpg",
+            "width": 100,
+            "height": 56,
+            "fallback": true
+          },
+          {
+            "ratio": "4_3",
+            "url": "https://s1.ticketm.net/dbimages/178226a.jpg",
+            "width": 305,
+            "height": 225,
+            "fallback": false
+          },
+          {
+            "ratio": "16_9",
+            "url": "https://s1.ticketm.net/dam/c/fbc/b293c0ad-c904-4215-bc59-8d7f2414dfbc_106141_RETINA_PORTRAIT_16_9.jpg",
+            "width": 640,
+            "height": 360,
+            "fallback": true
+          },
+          {
+            "ratio": "16_9",
+            "url": "https://s1.ticketm.net/dam/c/fbc/b293c0ad-c904-4215-bc59-8d7f2414dfbc_106141_TABLET_LANDSCAPE_LARGE_16_9.jpg",
+            "width": 2048,
+            "height": 1152,
+            "fallback": true
+          },
+          {
+            "ratio": "3_2",
+            "url": "https://s1.ticketm.net/dam/c/fbc/b293c0ad-c904-4215-bc59-8d7f2414dfbc_106141_RETINA_PORTRAIT_3_2.jpg",
+            "width": 640,
+            "height": 427,
+            "fallback": true
+          },
+          {
+            "ratio": "16_9",
+            "url": "https://s1.ticketm.net/dam/c/fbc/b293c0ad-c904-4215-bc59-8d7f2414dfbc_106141_RETINA_LANDSCAPE_16_9.jpg",
+            "width": 1136,
+            "height": 639,
+            "fallback": true
+          },
+          {
+            "ratio": "16_9",
+            "url": "https://s1.ticketm.net/dam/c/fbc/b293c0ad-c904-4215-bc59-8d7f2414dfbc_106141_TABLET_LANDSCAPE_16_9.jpg",
+            "width": 1024,
+            "height": 576,
+            "fallback": true
+          },
+          {
+            "ratio": "3_2",
+            "url": "https://s1.ticketm.net/dam/c/fbc/b293c0ad-c904-4215-bc59-8d7f2414dfbc_106141_TABLET_LANDSCAPE_3_2.jpg",
+            "width": 1024,
+            "height": 683,
+            "fallback": true
+          },
+          {
+            "ratio": "3_2",
+            "url": "https://s1.ticketm.net/dam/c/fbc/b293c0ad-c904-4215-bc59-8d7f2414dfbc_106141_ARTIST_PAGE_3_2.jpg",
+            "width": 305,
+            "height": 203,
+            "fallback": true
+          }
+        ],
+        "classifications": [
+          {
+            "primary": true,
+            "segment": {
+              "id": "KZFzniwnSyZfZ7v7nJ",
+              "name": "Music"
+            },
+            "genre": {
+              "id": "KnvZfZ7vAeA",
+              "name": "Rock"
+            },
+            "subGenre": {
+              "id": "KZazBEonSMnZfZ7v6dt",
+              "name": "Alternative Rock"
+            },
+            "type": {
+              "id": "KZAyXgnZfZ7v7nI",
+              "name": "Undefined"
+            },
+            "subType": {
+              "id": "KZFzBErXgnZfZ7v7lJ",
+              "name": "Undefined"
+            }
+          }
+        ],
+        "upcomingEvents": {
+          "_total": 0
+        },
+        "_links": {
+          "self": {
+            "href": "/discovery/v2/attractions/K8vZ9173I57?locale=en-us"
+          }
+        }
+      },
+      {
+        "name": "Portugal. the Man and Grouplove",
+        "type": "attraction",
+        "id": "K8vZ9173I5f",
+        "test": false,
+        "url": "http://www.ticketmaster.com/artist/2012345",
+        "locale": "en-us",
+        "images": [
+          {
+            "ratio": "16_9",
+            "url": "https://s1.ticketm.net/dam/c/fbc/b293c0ad-c904-4215-bc59-8d7f2414dfbc_106141_RECOMENDATION_16_9.jpg",
+            "width": 100,
+            "height": 56,
+            "fallback": true
+          },
+          {
+            "ratio": "16_9",
+            "url": "https://s1.ticketm.net/dam/c/fbc/b293c0ad-c904-4215-bc59-8d7f2414dfbc_106141_RETINA_PORTRAIT_16_9.jpg",
+            "width": 640,
+            "height": 360,
+            "fallback": true
+          },
+          {
+            "ratio": "16_9",
+            "url": "https://s1.ticketm.net/dam/c/fbc/b293c0ad-c904-4215-bc59-8d7f2414dfbc_106141_TABLET_LANDSCAPE_LARGE_16_9.jpg",
+            "width": 2048,
+            "height": 1152,
+            "fallback": true
+          },
+          {
+            "ratio": "3_2",
+            "url": "https://s1.ticketm.net/dam/c/fbc/b293c0ad-c904-4215-bc59-8d7f2414dfbc_106141_RETINA_PORTRAIT_3_2.jpg",
+            "width": 640,
+            "height": 427,
+            "fallback": true
+          },
+          {
+            "ratio": "16_9",
+            "url": "https://s1.ticketm.net/dam/c/fbc/b293c0ad-c904-4215-bc59-8d7f2414dfbc_106141_RETINA_LANDSCAPE_16_9.jpg",
+            "width": 1136,
+            "height": 639,
+            "fallback": true
+          },
+          {
+            "ratio": "16_9",
+            "url": "https://s1.ticketm.net/dam/c/fbc/b293c0ad-c904-4215-bc59-8d7f2414dfbc_106141_TABLET_LANDSCAPE_16_9.jpg",
+            "width": 1024,
+            "height": 576,
+            "fallback": true
+          },
+          {
+            "ratio": "3_2",
+            "url": "https://s1.ticketm.net/dam/c/fbc/b293c0ad-c904-4215-bc59-8d7f2414dfbc_106141_TABLET_LANDSCAPE_3_2.jpg",
+            "width": 1024,
+            "height": 683,
+            "fallback": true
+          },
+          {
+            "ratio": "4_3",
+            "url": "https://s1.ticketm.net/dbimages/178223a.jpg",
+            "width": 305,
+            "height": 225,
+            "fallback": false
+          },
+          {
+            "ratio": "16_9",
+            "url": "https://s1.ticketm.net/dbimages/178224a.jpg",
+            "width": 205,
+            "height": 115,
+            "fallback": false
+          },
+          {
+            "ratio": "3_2",
+            "url": "https://s1.ticketm.net/dam/c/fbc/b293c0ad-c904-4215-bc59-8d7f2414dfbc_106141_ARTIST_PAGE_3_2.jpg",
+            "width": 305,
+            "height": 203,
+            "fallback": true
+          }
+        ],
+        "classifications": [
+          {
+            "primary": true,
+            "segment": {
+              "id": "KZFzniwnSyZfZ7v7nJ",
+              "name": "Music"
+            },
+            "genre": {
+              "id": "KnvZfZ7vAeA",
+              "name": "Rock"
+            },
+            "subGenre": {
+              "id": "KZazBEonSMnZfZ7v6dt",
+              "name": "Alternative Rock"
+            },
+            "type": {
+              "id": "KZAyXgnZfZ7v7nI",
+              "name": "Undefined"
+            },
+            "subType": {
+              "id": "KZFzBErXgnZfZ7v7lJ",
+              "name": "Undefined"
+            }
+          }
+        ],
+        "upcomingEvents": {
+          "_total": 0
+        },
+        "_links": {
+          "self": {
+            "href": "/discovery/v2/attractions/K8vZ9173I5f?locale=en-us"
+          }
+        }
+      }
+    ]
+  },
+  "_links": {
+    "self": {
+      "href": "/discovery/v2/attractions.json?size=5&keyword=Group+love"
+    }
+  },
+  "page": {
+    "size": 5,
+    "totalElements": 3,
+    "totalPages": 1,
+    "number": 0
+  }
+}

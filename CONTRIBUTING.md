@@ -9,6 +9,8 @@ Thank you for your interest in contributing to the Lively Music App. This softwa
 
 ## Docs
 - [Original mock-ups](https://drive.google.com/file/d/0BxZloyWe4062MFVGeVdydmRPclU/view?usp=sharing)
+- [Search data flow and overview of module functionality](https://drive.google.com/file/d/0BxZloyWe4062WHQ0ZDhXRGo3NFk/view?usp=sharing)
+- [Example search result data for the Ticketmaster API](https://github.com/hzemzem/Lively-Music-App/tree/develop/data)
 - [Student guide for project (GitLab)](http://gt.bootcampcontent.com/GT-Coding-Boot-Camp/04-2017-ATL-Class-Repository/blob/master/Class-Content/08-api-project-week-one/StudentGuide.md)
 
 ## Writing and Committing Code

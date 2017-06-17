@@ -1,0 +1,169 @@
+// results for a venue search with keywords "Philips" and "Arena"
+// again, the id is key here because we'll have to first display this list, then if the user wants to select a venue
+// to see events, we have to do an event search with that id supplied
+{
+  "_embedded": {
+    "venues": [
+      {
+        "name": "Philips Arena",
+        "type": "venue",
+        "id": "KovZpa2Xke",
+        "test": false,
+        "url": "http://www.ticketmaster.com/venue/114689",
+        "locale": "en-us",
+        "images": [
+          {
+            "ratio": "16_9",
+            "url": "https://s1.ticketm.net/dbimages/PhilipsArena2_GA_114689_4Z.gif",
+            "width": 205,
+            "height": 115,
+            "fallback": false
+          },
+          {
+            "ratio": "3_1",
+            "url": "https://s1.ticketm.net/dam/v/f39/93cc5796-5872-4355-b74d-a3fdc703ef39_378491_SOURCE.jpg",
+            "width": 1500,
+            "height": 500,
+            "fallback": false,
+            "attribution": "KovZpa2Xke"
+          }
+        ],
+        "postalCode": "30303",
+        "timezone": "America/New_York",
+        "city": {
+          "name": "Atlanta"
+        },
+        "state": {
+          "name": "Georgia",
+          "stateCode": "GA"
+        },
+        "country": {
+          "name": "United States Of America",
+          "countryCode": "US"
+        },
+        "address": {
+          "line1": "One Philips Drive"
+        },
+        "location": {
+          "longitude": "-84.394569",
+          "latitude": "33.757796"
+        },
+        "markets": [
+          {
+            "id": "10"
+          },
+          {
+            "id": "51"
+          }
+        ],
+        "dmas": [
+          {
+            "id": 200
+          },
+          {
+            "id": 220
+          },
+          {
+            "id": 221
+          },
+          {
+            "id": 258
+          },
+          {
+            "id": 327
+          },
+          {
+            "id": 384
+          }
+        ],
+        "social": {
+          "twitter": {
+            "handle": "@PhilipsArena"
+          }
+        },
+        "boxOfficeInfo": {
+          "phoneNumberDetail": "404-878-3000 - Philips Box Office 1-866-715-1500 - Atlanta Hawks",
+          "openHoursDetail": "The main box office is located on Centennial Olympic Park Drive. Open Monday-Friday; 9:30am-5:00pm.",
+          "acceptedPaymentDetail": "Accepts: cash, Visa, Mastercard, Discover, American Express",
+          "willCallDetail": "Located at main box office on Centennial Olympic Park Drive. Available for pickup beginning 1 1/2 hours prior to event. Closing time will vary by event. PLEASE BRING A PICTURE ID, THE ACTUAL CREDIT CARD USED TO PURCHASE THE TICKETS, AND YOUR ORDER NUMBER."
+        },
+        "parkingDetail": "Parking is available in various lots around Philips Arena including Centennial Garage and the CNN Deck located on Centennial Olympic Park Drive across from the arena. Both lots may be entered from Centennial Olympic Park Drive or Spring Street. Accessible parking is available in both lots. Price varies by event. The Philips Lot, located beneath the CNN Parking lot area, directly across from Philips Arena, is adjacent to “The Gulch” and can be entered from the downward ramp on Centennial Olympic Park Drive.",
+        "accessibleSeatingDetail": "Accessible seating is available in throughout the arena in various price categories. Seating for the sight/hearing impaired available in the lower level. All accessible seating is subject to availability. All levels of the Arena are accessible by elevator and escalator.",
+        "generalInfo": {
+          "generalRule": "No smoking inside arena (designated smoking areas will be provided outside the arena). No glass bottles , aluminum cans, coolers, thermoses, outside food, or alcoholic beverages No banners or laser pointers. No Backpacks.",
+          "childRule": "For most events, everyone two and older must have a ticket. For Sesame Street Live, children one and older must have a ticket. Please see the ticket information for each event."
+        },
+        "upcomingEvents": {
+          "_total": 13,
+          "tmr": 3,
+          "ticketmaster": 10
+        },
+        "_links": {
+          "self": {
+            "href": "/discovery/v2/venues/KovZpa2Xke?locale=en-us"
+          }
+        }
+      },
+      {
+        "name": "McGrath - Phillips Arena",
+        "type": "venue",
+        "id": "KovZpZAFdEeA",
+        "test": false,
+        "url": "http://www.ticketmaster.com/venue/32804",
+        "locale": "en-us",
+        "postalCode": "60614",
+        "timezone": "America/Chicago",
+        "city": {
+          "name": "Chicago"
+        },
+        "state": {
+          "name": "Illinois",
+          "stateCode": "IL"
+        },
+        "country": {
+          "name": "United States Of America",
+          "countryCode": "US"
+        },
+        "address": {
+          "line1": "2323 N. Sheffield Av."
+        },
+        "location": {
+          "longitude": "-87.653341",
+          "latitude": "41.923918"
+        },
+        "markets": [
+          {
+            "id": "3"
+          }
+        ],
+        "dmas": [
+          {
+            "id": 249
+          },
+          {
+            "id": 373
+          }
+        ],
+        "upcomingEvents": {
+          "_total": 0
+        },
+        "_links": {
+          "self": {
+            "href": "/discovery/v2/venues/KovZpZAFdEeA?locale=en-us"
+          }
+        }
+      }
+    ]
+  },
+  "_links": {
+    "self": {
+      "href": "/discovery/v2/venues.json?keyword=Philips+Arena"
+    }
+  },
+  "page": {
+    "size": 20,
+    "totalElements": 2,
+    "totalPages": 1,
+    "number": 0
+  }
+}

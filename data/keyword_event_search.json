@@ -1,0 +1,368 @@
+// Results of event search with keywords 'music' and 'midtown'
+// Note that there may be multiple 'events' objects returned. It just so happened this result only returned 1
+{
+  "_embedded": {
+    "events": [
+      {
+        "name": "Music Midtown Festival",
+        "type": "event",
+        "id": "vvG1zZfiTcqnBz",
+        "test": false,
+        "url": "http://fgtix.to/musicmidtowntm",
+        "locale": "en-us",
+        "images": [
+          {
+            "ratio": "16_9",
+            "url": "https://s1.ticketm.net/dam/a/455/adea98a1-6581-432d-a340-fb2f5c6ca455_442381_EVENT_DETAIL_PAGE_16_9.jpg",
+            "width": 205,
+            "height": 115,
+            "fallback": false
+          },
+          {
+            "ratio": "16_9",
+            "url": "https://s1.ticketm.net/dam/a/455/adea98a1-6581-432d-a340-fb2f5c6ca455_442381_TABLET_LANDSCAPE_LARGE_16_9.jpg",
+            "width": 2048,
+            "height": 1152,
+            "fallback": false
+          },
+          {
+            "ratio": "3_2",
+            "url": "https://s1.ticketm.net/dam/a/455/adea98a1-6581-432d-a340-fb2f5c6ca455_442381_RETINA_PORTRAIT_3_2.jpg",
+            "width": 640,
+            "height": 427,
+            "fallback": false
+          },
+          {
+            "ratio": "4_3",
+            "url": "https://s1.ticketm.net/dam/a/455/adea98a1-6581-432d-a340-fb2f5c6ca455_442381_CUSTOM.jpg",
+            "width": 305,
+            "height": 225,
+            "fallback": false
+          },
+          {
+            "ratio": "16_9",
+            "url": "https://s1.ticketm.net/dam/a/455/adea98a1-6581-432d-a340-fb2f5c6ca455_442381_RETINA_LANDSCAPE_16_9.jpg",
+            "width": 1136,
+            "height": 639,
+            "fallback": false
+          },
+          {
+            "ratio": "3_2",
+            "url": "https://s1.ticketm.net/dam/a/455/adea98a1-6581-432d-a340-fb2f5c6ca455_442381_TABLET_LANDSCAPE_3_2.jpg",
+            "width": 1024,
+            "height": 683,
+            "fallback": false
+          },
+          {
+            "ratio": "16_9",
+            "url": "https://s1.ticketm.net/dam/a/455/adea98a1-6581-432d-a340-fb2f5c6ca455_442381_RETINA_PORTRAIT_16_9.jpg",
+            "width": 640,
+            "height": 360,
+            "fallback": false
+          },
+          {
+            "ratio": "3_2",
+            "url": "https://s1.ticketm.net/dam/a/455/adea98a1-6581-432d-a340-fb2f5c6ca455_442381_ARTIST_PAGE_3_2.jpg",
+            "width": 305,
+            "height": 203,
+            "fallback": false
+          },
+          {
+            "ratio": "16_9",
+            "url": "https://s1.ticketm.net/dam/a/455/adea98a1-6581-432d-a340-fb2f5c6ca455_442381_RECOMENDATION_16_9.jpg",
+            "width": 100,
+            "height": 56,
+            "fallback": false
+          },
+          {
+            "ratio": "16_9",
+            "url": "https://s1.ticketm.net/dam/a/455/adea98a1-6581-432d-a340-fb2f5c6ca455_442381_TABLET_LANDSCAPE_16_9.jpg",
+            "width": 1024,
+            "height": 576,
+            "fallback": false
+          }
+        ],
+        "sales": {
+          "public": {
+            "startDateTime": "2017-06-20T14:00:00Z",
+            "startTBD": false,
+            "endDateTime": "2017-09-16T16:00:00Z"
+          }
+        },
+        "dates": {
+          "start": {
+            "localDate": "2017-09-16",
+            "dateTBD": false,
+            "dateTBA": false,
+            "timeTBA": false,
+            "noSpecificTime": true
+          },
+          "end": {
+            "localDate": "2017-09-17",
+            "approximate": false,
+            "noSpecificTime": true
+          },
+          "timezone": "America/New_York",
+          "status": {
+            "code": "offsale"
+          },
+          "spanMultipleDays": false
+        },
+        "classifications": [
+          {
+            "primary": true,
+            "segment": {
+              "id": "KZFzniwnSyZfZ7v7nJ",
+              "name": "Music"
+            },
+            "genre": {
+              "id": "KnvZfZ7vAvl",
+              "name": "Other"
+            },
+            "subGenre": {
+              "id": "KZazBEonSMnZfZ7vk1I",
+              "name": "Other"
+            },
+            "type": {
+              "id": "KZAyXgnZfZ7v7nI",
+              "name": "Undefined"
+            },
+            "subType": {
+              "id": "KZFzBErXgnZfZ7v7lJ",
+              "name": "Undefined"
+            }
+          }
+        ],
+        "promoter": {
+          "id": "494",
+          "name": "PROMOTED BY VENUE",
+          "description": "PROMOTED BY VENUE / NTL / USA"
+        },
+        "promoters": [
+          {
+            "id": "494",
+            "name": "PROMOTED BY VENUE",
+            "description": "PROMOTED BY VENUE / NTL / USA"
+          }
+        ],
+        "_links": {
+          "self": {
+            "href": "/discovery/v2/events/vvG1zZfiTcqnBz?locale=en-us"
+          },
+          "attractions": [
+            {
+              "href": "/discovery/v2/attractions/K8vZ9171YvV?locale=en-us"
+            }
+          ],
+          "venues": [
+            {
+              "href": "/discovery/v2/venues/KovZpZAFl6dA?locale=en-us"
+            }
+          ]
+        },
+        "_embedded": {
+          "venues": [
+            {
+              "name": "PIEDMONT PARK",
+              "type": "venue",
+              "id": "KovZpZAFl6dA",
+              "test": false,
+              "url": "http://www.ticketmaster.com/venue/115455",
+              "locale": "en-us",
+              "postalCode": "30306",
+              "timezone": "America/New_York",
+              "city": {
+                "name": "Atlanta"
+              },
+              "state": {
+                "name": "Georgia",
+                "stateCode": "GA"
+              },
+              "country": {
+                "name": "United States Of America",
+                "countryCode": "US"
+              },
+              "address": {
+                "line1": "400 Park Drive"
+              },
+              "location": {
+                "longitude": "-84.3639749",
+                "latitude": "33.7842414"
+              },
+              "markets": [
+                {
+                  "id": "10"
+                }
+              ],
+              "dmas": [
+                {
+                  "id": 220
+                },
+                {
+                  "id": 221
+                },
+                {
+                  "id": 258
+                },
+                {
+                  "id": 327
+                },
+                {
+                  "id": 384
+                }
+              ],
+              "boxOfficeInfo": {
+                "phoneNumberDetail": "404.817.6634",
+                "openHoursDetail": "Day of event: 12:00pm",
+                "acceptedPaymentDetail": "Cash, Visa, MC, Discover, & American Express",
+                "willCallDetail": "Located: Park Entrance Open: 12:00pm"
+              },
+              "parkingDetail": "NO venue specific parking",
+              "accessibleSeatingDetail": "Piedmont Park is an \"all general admission\" venue. Patrons requesting accessible seating may purchase and use a regular general admission ticket. Please click \"Back\" to previous page and continue with standard purchase.",
+              "generalInfo": {
+                "generalRule": "Items NOT allowed: No pets, bags, backpacks, coolers, picnic baskets, water bottles, roller skates, roller blades, bikes, lawn chairs, umbrellas, cameras, video recorders, alcoholic beverages, festival poles, fireworks, drugs and weapons. Items Allowed: Blankets",
+                "childRule": "All ages!! Everyone needs a ticket to enter"
+              },
+              "upcomingEvents": {
+                "_total": 1,
+                "ticketmaster": 1
+              },
+              "_links": {
+                "self": {
+                  "href": "/discovery/v2/venues/KovZpZAFl6dA?locale=en-us"
+                }
+              }
+            }
+          ],
+          "attractions": [
+            {
+              "name": "Music Midtown Festival",
+              "type": "attraction",
+              "id": "K8vZ9171YvV",
+              "test": false,
+              "url": "http://www.ticketmaster.com/artist/861894",
+              "locale": "en-us",
+              "images": [
+                {
+                  "ratio": "16_9",
+                  "url": "https://s1.ticketm.net/dam/a/455/adea98a1-6581-432d-a340-fb2f5c6ca455_442381_EVENT_DETAIL_PAGE_16_9.jpg",
+                  "width": 205,
+                  "height": 115,
+                  "fallback": false
+                },
+                {
+                  "ratio": "16_9",
+                  "url": "https://s1.ticketm.net/dam/a/455/adea98a1-6581-432d-a340-fb2f5c6ca455_442381_TABLET_LANDSCAPE_LARGE_16_9.jpg",
+                  "width": 2048,
+                  "height": 1152,
+                  "fallback": false
+                },
+                {
+                  "ratio": "3_2",
+                  "url": "https://s1.ticketm.net/dam/a/455/adea98a1-6581-432d-a340-fb2f5c6ca455_442381_RETINA_PORTRAIT_3_2.jpg",
+                  "width": 640,
+                  "height": 427,
+                  "fallback": false
+                },
+                {
+                  "ratio": "4_3",
+                  "url": "https://s1.ticketm.net/dam/a/455/adea98a1-6581-432d-a340-fb2f5c6ca455_442381_CUSTOM.jpg",
+                  "width": 305,
+                  "height": 225,
+                  "fallback": false
+                },
+                {
+                  "ratio": "16_9",
+                  "url": "https://s1.ticketm.net/dam/a/455/adea98a1-6581-432d-a340-fb2f5c6ca455_442381_RETINA_LANDSCAPE_16_9.jpg",
+                  "width": 1136,
+                  "height": 639,
+                  "fallback": false
+                },
+                {
+                  "ratio": "3_2",
+                  "url": "https://s1.ticketm.net/dam/a/455/adea98a1-6581-432d-a340-fb2f5c6ca455_442381_TABLET_LANDSCAPE_3_2.jpg",
+                  "width": 1024,
+                  "height": 683,
+                  "fallback": false
+                },
+                {
+                  "ratio": "16_9",
+                  "url": "https://s1.ticketm.net/dam/a/455/adea98a1-6581-432d-a340-fb2f5c6ca455_442381_RETINA_PORTRAIT_16_9.jpg",
+                  "width": 640,
+                  "height": 360,
+                  "fallback": false
+                },
+                {
+                  "ratio": "3_2",
+                  "url": "https://s1.ticketm.net/dam/a/455/adea98a1-6581-432d-a340-fb2f5c6ca455_442381_ARTIST_PAGE_3_2.jpg",
+                  "width": 305,
+                  "height": 203,
+                  "fallback": false
+                },
+                {
+                  "ratio": "16_9",
+                  "url": "https://s1.ticketm.net/dam/a/455/adea98a1-6581-432d-a340-fb2f5c6ca455_442381_RECOMENDATION_16_9.jpg",
+                  "width": 100,
+                  "height": 56,
+                  "fallback": false
+                },
+                {
+                  "ratio": "16_9",
+                  "url": "https://s1.ticketm.net/dam/a/455/adea98a1-6581-432d-a340-fb2f5c6ca455_442381_TABLET_LANDSCAPE_16_9.jpg",
+                  "width": 1024,
+                  "height": 576,
+                  "fallback": false
+                }
+              ],
+              "classifications": [
+                {
+                  "primary": true,
+                  "segment": {
+                    "id": "KZFzniwnSyZfZ7v7nJ",
+                    "name": "Music"
+                  },
+                  "genre": {
+                    "id": "KnvZfZ7vAvl",
+                    "name": "Other"
+                  },
+                  "subGenre": {
+                    "id": "KZazBEonSMnZfZ7vk1I",
+                    "name": "Other"
+                  },
+                  "type": {
+                    "id": "KZAyXgnZfZ7v7nI",
+                    "name": "Undefined"
+                  },
+                  "subType": {
+                    "id": "KZFzBErXgnZfZ7v7lJ",
+                    "name": "Undefined"
+                  }
+                }
+              ],
+              "upcomingEvents": {
+                "_total": 1,
+                "ticketmaster": 1
+              },
+              "_links": {
+                "self": {
+                  "href": "/discovery/v2/attractions/K8vZ9171YvV?locale=en-us"
+                }
+              }
+            }
+          ]
+        }
+      }
+    ]
+  },
+  "_links": {
+    "self": {
+      "href": "/discovery/v2/events.json?size=5&keyword=music%2Cmidtown"
+    }
+  },
+  "page": {
+    "size": 5,
+    "totalElements": 1,
+    "totalPages": 1,
+    "number": 0
+  }
+}
